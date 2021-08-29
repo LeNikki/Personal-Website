@@ -51,7 +51,7 @@ function showSlides() {
   setTimeout(showSlides, 10000); // Change image every 10 seconds
 }*/
 
-/* ################### MEDIA SCREEN #######################*/
+/* ################### MEDIA SCREEN #######################
 function myFunction(x) {
     if (x.matches) { // If media query matches
       document.body.style.color = "yellow";
@@ -62,4 +62,4 @@ function myFunction(x) {
   
   var x = window.matchMedia("(max-width: 600px)")
   myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
+  x.addListener(myFunction) // Attach listener function on state changes*/
