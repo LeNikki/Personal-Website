@@ -6,7 +6,7 @@
         <meta name="viewport" content = "width = device-width, initial-scale = 1.0"/>  <!--important for media queries-->
         <title>Nicole's Parallax</title>
         <link rel ="stylesheet" type = "text/css" href = "css/style.css">
-        <link rel ="stylesheet" media="screen and (max-width: 600px)" href = "../css/media_screen.css">
+        <link rel ="stylesheet" media="screen and (max-width: 600px)" href = "css/media_screen.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
@@ -22,7 +22,7 @@
         
        <div id="div1">
         <div class = "subtitle">
-        <h1><strong class="logo">Nicole Satiembre</strong></h1>
+        <h1><strong class="logo">Nicole Satiembre</strong></h1> 
         
         <h2  class= "role">Web Developer</h2>
         <a href = "#third" class = "proj_btn"> Projects </a>
@@ -52,11 +52,11 @@
 
        <div class = "fourth">
          
-                <!-- Full-width images with number and caption text -->
+                <!-- Full-width .images with number and caption text -->
                 <div class="mySlides fade" id = "1" >
                     <section class="numbertext">1 / 6</section>
-                    <img src = "images/bookDBpic.PNG" class = "proj">
-                    <img src="images/library_canva.png" style="width: 100%; height: 100%;">
+                    <img src = "./images/bookDBpic.PNG" class = "proj">
+                    <img src="./images/library_canva.png" style="width: 100%; height: 100%;">
                     <section class="text"><a href = "https://github.com/LeNikki/Library-Database">Link</a></section>
                     
                     
@@ -64,36 +64,36 @@
 
                     <div class="mySlides fade" id = "2">
                         <section class="numbertext">2 / 6</section>
-                        <img src = "images/apparel.gif" class = "proj" >
-                        <img src="images/apparel_canva.png" style="width: 100%; height: 100%;">
+                        <img src = "./images/apparel.gif" class = "proj" >
+                        <img src="./images/apparel_canva.png" style="width: 100%; height: 100%;">
                         <section class="text"><a href = "https://github.com/LeNikki/Apparel-Email-Template">Link</a></section>
                         
                     </div>
 
                     <div class="mySlides fade" id = "3">
                         <section class="numbertext">3 / 6</section>
-                        <img src = "images/paint.gif" class = "proj">
-                        <img src="images/paint_canva.png" style="width: 100%; height: 100%;">
+                        <img src = "./images/paint.gif" class = "proj">
+                        <img src="./images/paint_canva.png" style="width: 100%; height: 100%;">
                         <section class="text"><a href = "https://github.com/LeNikki/Satiembre_PaintApp">Link</a></section>
                        
                     </div>
                     <div class="mySlides fade" id = "4">
                         <section class="numbertext">4 / 6</section>
-                        <img src = "images/student.gif" class = "proj">
-                        <img src="images/student_canva.png" style="width: 100%; height: 100%;">
+                        <img src = "./images/student.gif" class = "proj">
+                        <img src="./images/student_canva.png" style="width: 100%; height: 100%;">
                         <section class="text"><a href = "https://github.com/LeNikki/Student-Information-Database">Link</a></section>
                         
                     </div>
                     <div class="mySlides fade" id = "4">
                         <section class="numbertext">5 / 6</section>
-                        <img src = "images/voice.jpeg" class = "proj">
-                        <img src="images/voice_canva.png" style="width: 100%; height: 100%;">
+                        <img src = "./images/voice.jpeg" class = "proj">
+                        <img src="./images/voice_canva.png" style="width: 100%; height: 100%;">
                         <section class="text"><a href = " https://github.com/LeNikki/Speech-Assistant">Link</a></section>
                         
                     </div>
                     <div class="mySlides fade" id = "5">
                         <section class="numbertext">6 / 6</section>
-                        <img src="images/ecommerce_canva.png" style="width: 100%; height: 100%;">
+                        <img src="./images/ecommerce_canva.png" style="width: 100%; height: 100%;">
                         <section class="text"><a href = #>On-going</a></section>
                         
                     </div>
@@ -118,9 +118,12 @@
                 
        </div>
        <div class = "fifth">
-        <h1 class = "skills" >Skills</h1>
+       
         <table>
-            <tr>
+            <thead>
+                <th style = "font-size: 25px;text-align: center;">Skills: </th>
+            </thead>
+            <tbody>
                 <td>Django</td> <td>★ ★ ☆ ☆ ☆</td>
                 <td>Python  </td> <td>★ ★ ★ ☆ ☆</td>
             </tr>
@@ -145,11 +148,12 @@
             <tr>
                 <td>  Google Apps        </td> <td>★ ★ ★ ★ ★</td>
             </tr>
+        </tbody>
         </table>
        </div>
 
 
-        <script src = "../js/script.js"></script>
+        <script src = "js/script.js"></script>
     </body>
 
     <footer id= "footer" style = "height: 100px; background-color: pink; ">
