@@ -121,10 +121,7 @@ td{
     height: 500px;
     background-size: cover;
 }
-.skills
-{
-    position: absolute; top: 174rem;
-}
+
 .socials{
     float: left; margin-left: 40%; margin-top: 14px;
 }
