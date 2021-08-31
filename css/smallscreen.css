@@ -1,0 +1,131 @@
+ /*###################### MEDIA SCREEN ######################*/
+
+ @media screen and (max-width: 370px) {
+
+    /*######################### HEADER ######################*/
+    .logo {
+      float: none;
+      overflow: hidden;
+      line-height: 20px;
+      font-size: 22px;
+      margin: 10px 0 0 0;
+      position: absolute;
+      top: 10%;
+      left: 25px;
+    }
+    .role{
+        font-size: 17px;
+        top: 15%;
+        left: 50px !important;
+    }
+    .proj_btn{
+        font-size: 12px;
+        top: 22%;
+        left: 45px;
+        padding: 5px;
+    }
+    nav {
+      display: flex;
+      width: 100%;
+      float: none;
+      overflow: hidden;
+      justify-content: space-around;
+      margin-top: 0;
+      padding: 10px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .active{
+        font-size: 18px;
+    }
+    
+    .about_title{
+        position: absolute; top: 14rem; font-size: 18px;
+    }
+    .email{
+        position: absolute; top: 15rem; font-size: 15px; color:rgb(250, 86, 149)
+    }
+    .about_p{
+        position: absolute; top: 17rem; font-size: 13px;  letter-spacing: 0; line-height: 1.5rem;
+    }
+    .check{
+        position: absolute; top: 24rem; font-size: 15px;
+    }
+    /*############# DIVISIONS ##################*/
+    #div1{
+       
+        background-size: 100%;
+        height: 210px;
+    }
+    .second{
+       
+        background-size: 100%;
+        background-color: red;
+        height: 210px;
+       
+    }
+    .third{
+       
+        background-size: 100%;
+        background-repeat: repeat-y;
+        height: 100px;
+        
+    }
+    .fourth{
+        height: 210px;
+    }
+    .fifth{
+       background-image: none;
+       height: 100%;
+       
+    }
+    td{
+        margin:4px;
+        padding: 3px;
+    }
+    .mySlides {
+        height: 100%;
+        width: 100%;
+    }
+    .proj{
+        width: 100%; height: 100% !important; position:unset ; /*top: 35.7rem; left: 21%;*/
+    }
+    .text{
+        font-size: 15px;
+        top: 33rem;
+        left: 80%;
+        color: white;
+        background-color: white;
+        border-radius: 55px;
+        padding: 3px;
+        text-decoration: none ;
+    }
+    .myproj{
+        letter-spacing: 2px; border-radius: 55px; background-color:rgb(146, 88, 111); padding: 5px; color:white; font-size: 22px;
+    }
+    
+    .skills{
+        top: 54rem;
+        font-size: 20px;
+    }
+  
+    .thisweb{
+        /*position: absolute; top: 70rem; left: 20%;text-align: center !important;*/
+    }
+    .socials{
+        float: left; margin-left: 20%; margin-top: 18px;
+    }
+    .numbertext{
+        font-size: 10px;
+        top: 33rem;
+        color: yellow;
+    }
+    .div1, .second, .third, .fourth, .fifth{
+        background-color: pink;
+    }
+    .layout{
+        display: none;
+    }
+  }
