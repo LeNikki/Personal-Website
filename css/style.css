@@ -93,17 +93,17 @@ td{
  /*######################### DIVISIONS ######################*/
 
 #div1{
-    background-image: url("Images/coverphoto.png");
+    background-image: url("../images/coverphoto.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .second{
-    background-image: url("Images/about.png");
+    background-image: url("../images/about.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .third{
-    background-image: url("Images/page3.png");
+    background-image: url("../images/page3.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -116,7 +116,7 @@ td{
     padding: 0;
 }
 .fifth{
-    background-image: url("Images/skill_canva.png");
+    background-image: url("../images/skill_canva.png");
     background-repeat: no-repeat;
     height: 500px;
     background-size: cover;
