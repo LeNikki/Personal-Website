@@ -107,7 +107,7 @@
               grid-template-rows: repeat(11, 15%); margin-top:0; 
       }
       .skills{
-        position: absolute; top: 202% !important;margin-left: 24%; font-size: 18px;
+        position: absolute; top: 205% !important;margin-left: 24%; font-size: 18px;
       }
   
     .thisweb{
@@ -120,6 +120,9 @@
         font-size: 15px !important;
         top: 177% !important;
         color: yellow;
+     background-color: white;
+     border-radius: 55px;
+     padding: 3px;
     }
     .div1, .second, .third, .fourth, .fifth, footer{
         background-color:white;
