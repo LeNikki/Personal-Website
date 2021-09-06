@@ -107,7 +107,7 @@
               grid-template-rows: repeat(11, 15%); margin-top:0; 
       }
       .skills{
-        position: absolute; top: 69rem;margin-left: 24%; font-size: 18px;
+        position: absolute; top: 72rem;margin-left: 24%; font-size: 18px;
       }
   
     .thisweb{
@@ -118,7 +118,7 @@
     }
     .numbertext{
         font-size: 10px;
-        top: 77rem;
+        top: 100rem;
         color: yellow;
     }
     .div1, .second, .third, .fourth, .fifth, footer{
