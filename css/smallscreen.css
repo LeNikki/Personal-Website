@@ -50,7 +50,7 @@
         position:unset; font-size: 18px;/* top: 15rem; font-size: 15px; color:rgb(250, 86, 149)*/
     }
     .about_p{
-        position:unset; font-size: 16px; padding: 15%; /*top: 17rem; font-size: 13px;  letter-spacing: 0; line-height: 1.5rem;*/
+        position:unset; font-size: 16px; padding: 15%; letter-spacing: 2.5px;/*top: 17rem; font-size: 13px;  letter-spacing: 0; line-height: 1.5rem;*/
     }
     .check{
         position:unset; font-size: 18px;/*top: 24rem; font-size: 15px;*/
