@@ -66,7 +66,7 @@
         background-image: none;
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: unset;
     }
     .third{
        
