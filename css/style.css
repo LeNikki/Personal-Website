@@ -51,7 +51,7 @@ td{
   margin: 10%; padding: 10%;
 }
 .check{
-  position: absolute; top: 60rem; font-size: 30px;
+  margin-top:2%; font-size: 30px;
 }
 .proj_btn{
   position: absolute; top: 60%;
