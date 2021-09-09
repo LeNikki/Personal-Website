@@ -31,19 +31,19 @@ nav{
 
 }
 .role{
-  position:absolute; left: 20rem; margin-top: 10px; font-size: 50px; color: white;
+  position:absolute; left: 7rem; margin-top: 10px; font-size: 50px; color: white;
 }
 .proj{
   width: 56%; height: 60%; position: absolute; top: 133rem; left: 21%;
 }
 .logo{
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 5px;
   position: absolute;
-  top: 17rem;
-  left: 10rem;
+  top: 10rem;
+  left: 5rem;
   color: white;
   
 }
@@ -51,7 +51,7 @@ td{
   margin: 10%; padding: 10%;
 }
 .check{
-  position: absolute; top: 85rem; font-size: 30px;
+  position: absolute; top: 60rem; font-size: 30px;
 }
 .proj_btn{
   position: absolute; top: 60%;
@@ -77,8 +77,14 @@ td{
   
 }
 .proj{
-  border: 5px;
+ width: 100%;
+ height: 80%;
+ margin: 0;
+ padding: 0;
  border-radius: 55px;
+ margin-top: 2%;
+ position:unset;
+ left: 0;
 }
 
 .proj_btn{
@@ -106,17 +112,19 @@ td{
   background-image: url("../images/about.png");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .third{
   background-image: url("../images/page3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 400px;
+  height: 300px;
   
 }
 .fourth{
-  background-size: cover;
+  
   margin: 0;
   padding: 0;
 }
@@ -125,6 +133,8 @@ td{
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .star{
 color:rgb(236, 109, 147)
@@ -133,31 +143,34 @@ color:rgb(236, 109, 147)
    margin-top: 14px;
 }
 .table{
-padding: 15%; color:rgb(240, 95, 139); display: grid; 
+padding-left: 15%; color:rgb(240, 95, 139); display: grid; 
+padding-right: 15%;
       grid-template-columns: repeat(4, 42%); 
-      grid-template-rows: repeat(6, 15%); margin-top:7%; 
+      grid-template-rows: repeat(6, 15%); 
       height: 300px;
 }
+.skills{
+   margin-left: 30%; color:rgb(250, 86, 149);
+  }
 .myproj{
   letter-spacing: 4px; border-radius: 55px; background-color:rgb(255, 255, 255); padding: 15px; color:rgb(0, 0, 0);
 }
 
 /*########################## ABOUT ################################*/
 .about_title{
-  position: absolute; top: 55rem; font-size: 50px;
+  font-size: 50px; margin-top: 20px;
 }
 .email{
-  position: absolute; top: 60rem; font-size: 30px; color:rgb(250, 86, 149)
+   font-size: 30px; color:rgb(250, 86, 149)
 }
 .about_p{
-  position: absolute; font-size: 25px; letter-spacing: 3px; line-height: 3rem;
-  padding: 20%;
+  font-size: 22px; letter-spacing: 3px; line-height: 3rem;
+  margin-left: 20%; margin-right: 20%; margin-bottom: 10%;
 }
-.skills{
-position: absolute; top: 175rem; margin-left: 30%; color:rgb(250, 86, 149);
-}
+
 .title{
-  position: absolute; top: 155rem; margin-right: 40%; 
+  /*position: absolute; top: 155rem; margin-right: 40%; text-align: center; color: black;*/
+  margin-top: 3%; text-align:center;
 }
 /*############### SLIDESHOW #####################*/
 .mySlides {
@@ -201,17 +214,13 @@ position: absolute;
 /* Number text (1/3 etc) */
 .numbertext {
   color: black;
-  font-size: 25px;
- margin-top: 4%;
-  
-  position: absolute;
-  top: 252%;
-  left: 45%;
+  font-size: 15px;
+ position:unset;
+ margin-left: 2%;
 }
-.title{
-  position: absolute;
-  top: 165rem;
-  left: 45%;
+.title{ 
+  margin-top: 0;
+  color:black;
 }
 
 /* The dots/bullets/indicators */
