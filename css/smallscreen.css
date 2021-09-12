@@ -1,31 +1,90 @@
 /*###################### MEDIA SCREEN ######################*/
 
 @media screen and (max-width: 370px) {
+    div{
+        margin-right: 0;
+        padding: 0;
+        border: 0;
+        width:106%;
+    }
 
     /*######################### HEADER ######################*/
 
     .logo {
-      float: none;
-      overflow: hidden;
-      line-height: 20px;
-      letter-spacing: normal;
-      font-size: 18px;
-      margin: 15px;
-      position: absolute;
-      top: 10%;
-      left: 25px;
+     font-size: 20px;
+     font-weight: 600;
     }
     .role{
-        font-size: 15px;
-        top: 15%;
-        left: 50px !important;
+       font-size: 16px;
+       
     }
     .proj_btn{
         font-size: 12px;
-        top: 22%;
-        left: 45px;
-        padding: 5px;
+        font-weight: 200;
+        letter-spacing: 3px; padding: 3px 8px;
     }
+    .subtitle{
+        margin-top: 15%;
+        margin-left: 7%; 
+      }
+      /*########################## ABOUT ################################*/
+.about_title{
+    font-size: 25px; margin-top: 20px; 
+  }
+  .email{
+     font-size: 20px; color:rgb(250, 86, 149)
+  }
+  .about_p{
+    font-size: 18px; letter-spacing: 3px; line-height: 3rem;
+    margin-left:5%; margin-right: 0%; margin-bottom: 5%;
+    color:#3f3c3c;
+  }
+  
+  .title{
+    /*position: absolute; top: 155rem; margin-right: 40%; text-align: center; color: black;*/
+    margin-top: 3%; text-align:center;
+  }
+  .second1{
+    margin: 0;
+    background-color:transparent ;
+    width: 100%;
+    border: 0px;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    
+  }
+  /*##################### SKILLS ################################*/
+  .second2{
+    width: 100%;
+    width:100%
+    border: 0px;
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  .table{
+    padding-left: 5%;  display: grid; 
+    padding-right: 5%;
+    grid-template-columns: repeat(2, 35%); 
+    grid-template-rows: repeat(7, 15%); 
+    height:350px;
+    font-size: 18px;
+    margin-top: 4%;
+    color:rgb(0, 0, 0); 
+    font-weight: 600;
+  }
+  .skills{
+    color:rgb(7, 7, 7)  !important; 
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 1000;
+    text-align: center;
+  
+    
+   }
     nav {
       display: flex;
       width: 100%;
@@ -43,16 +102,7 @@
         font-size: 18px;
     }
     
-    .about_title{
-        position:unset; font-size: 20px;/* top: 14rem; font-size: 18px;*/
-    }
-    .email{
-        position:unset; font-size: 18px;/* top: 15rem; font-size: 15px; color:rgb(250, 86, 149)*/
-    }
-    .about_p{
-        position:unset; font-size: 16px;  letter-spacing: 2px;/*top: 17rem; font-size: 13px;  letter-spacing: 0; line-height: 1.5rem;*/
-        margin-left: 5%; margin-right: 5%; margin-bottom: 5%;
-    }
+    
     .check{
         position:unset; font-size: 18px;/*top: 24rem; font-size: 15px;*/
     }
@@ -70,23 +120,19 @@
         height: unset;
         border: 10px;
         padding: 5px;
+        height: unset;
     }
     .third{
        
-        background-size: 100%;
-        background-repeat: repeat-y;
-        height: 100px;
-        
+       background-image: none;
+       height: 100px;
+       
     }
     .fourth{
         height: 210px;
+        
     }
-    .fifth{
-       background-image: none;
-       
-       height:unset;
-       
-    }
+    
     td{
         margin:4px;
         padding: 3px;
@@ -97,29 +143,19 @@
     }
     .proj{
         width: 100%;
-        height: 80%;
+        height: 100%;
         border-radius:0;
         margin:0;
         padding: 0;
     }
    
     .myproj{
-        letter-spacing: 2px; border-radius: 55px; padding: 8px;  font-size: 22px;
+        letter-spacing: 2px; border-radius: 55px; padding: 5px;  font-size: 20px;
+        margin-left: 35%;
     }
-    .table{
-        padding-left: 10%; color:rgb(240, 95, 139); display: grid; 
-        padding-right: 10%;
-              grid-template-columns: repeat(2, minmax(100px, 200px)); 
-              grid-template-rows: repeat(11, 15%); 
-      }
-      .skills{
-        margin-left: 33%; color:rgb(250, 86, 149); font-size: 23px;
-        margin-top: 5px;
-        
-        
-      }
+   
       .title{
-        font-size: 12px; margin-top: 0;
+        color: black;
       }
     .thisweb{
         /*position: absolute; top: 70rem; left: 20%;text-align: center !important;*/
@@ -128,7 +164,7 @@
         float: left; margin-left: 20%; margin-top: 18px;
     }
     .numbertext{
-        font-size: 10px !important;
+        font-size: 12px !important;
         left: 5%;
         color: black;
         margin:0; padding: 0;
@@ -139,7 +175,14 @@
     .layout{
         display: none;
     }
+    .contact{
+        display: inline-block;
+        width: 20%;
+        margin-left: 0;
+        
+    }
     footer{
         margin-top: 59%;
+       
     }
   }
